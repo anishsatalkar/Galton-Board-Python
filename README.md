@@ -1,5 +1,6 @@
 # Galton Board in Python
-A simple Galton board simulation in Python. 
+A simple Galton board simulation in Python.
+Michael from Vsauce has an amazing video explaining the concept : https://www.youtube.com/watch?v=UCmPmkHqHXk
 
 ### How to use 
 You may change the 'h' and 'b' parameters to the galton() method to change the height of Galton board and number of balls respectively. Simply run the script to see a simple distribution graph.
