@@ -15,10 +15,9 @@ def galton(h, b):
 
 def print_graph(dataset):
     for val in dataset:
-        print('\n' + str(val))
         for i in range(0, val):
             print('.', end='')
-
+        print(val)
 
 #h= height of dalton board , b= number of balls
 containers = galton(h=13, b=321)
