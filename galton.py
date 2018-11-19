@@ -19,6 +19,6 @@ def print_graph(dataset):
             print('.', end='')
         print(val)
 
-#h= height of dalton board , b= number of balls
+#h= height of galton board , b= number of balls
 containers = galton(h=13, b=321)
 print_graph(containers)
