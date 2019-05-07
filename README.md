@@ -1,5 +1,5 @@
 # Galton Board in Python
-A simple Galton board simulation in Python.
+A simple Galton board simulation in pure Python.
 Michael from Vsauce has an amazing video explaining the concept : https://www.youtube.com/watch?v=UCmPmkHqHXk
 
 ### How to use 
