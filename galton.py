@@ -20,5 +20,5 @@ def print_graph(dataset):
         print(val)
 
 #h= height of galton board , b= number of balls
-containers = galton(h=13, b=321)
+containers = galton(h=int(sys.argv[1]), b=int(sys.argv[2]))
 print_graph(containers)
