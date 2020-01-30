@@ -1,4 +1,6 @@
 from random import randint
+import sys
+
 
 def galton(h, b):
     containers = [0] * (h + 1)
@@ -19,6 +21,6 @@ def print_graph(dataset):
             print('.', end='')
         print(val)
 
-#h= height of galton board , b= number of balls
+# h = height of galton board , b = number of balls
 containers = galton(h=int(sys.argv[1]), b=int(sys.argv[2]))
 print_graph(containers)
